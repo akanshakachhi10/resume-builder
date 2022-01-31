@@ -1,3 +1,3 @@
-class Education < ApplicationRecord
-    belongs_to :profile
+class Education < ActiveRecord::Base
+  belongs_to :resume
 end
